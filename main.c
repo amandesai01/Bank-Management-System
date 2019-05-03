@@ -268,7 +268,7 @@ void transaction()
     }
 }
 
-void remove()
+void removevoid()
 {
     int flag = 0, choice, up_in, exit_no;
     FILE *old_file, *new_file;
@@ -303,7 +303,7 @@ void remove()
         scanf("%d", &up_in);
         if(up_in == 1)
         {
-            remove();
+            removevoid();
         }
         else if(up_in == 2)
         {
